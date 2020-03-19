@@ -15,7 +15,7 @@ def default():
         else
         "0" if 12 <= hour <= 17
         else
-        "1" if 18 <= hour <= 24
+        "1" 
     )
 if __name__ =='__main__':
     app.run(debug=True)
